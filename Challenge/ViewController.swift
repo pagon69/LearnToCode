@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         calculorStorageOne = Double(displayScreen.text!)!
         displayScreen.text = ""
         functionSent = sender.currentTitle!
-        miniDisplayScreen.text! = miniDisplayScreen.text! + functionSent + " "
+        miniDisplayScreen.text! = miniDisplayScreen.text! + " " + functionSent + " "
         }
     }
     
